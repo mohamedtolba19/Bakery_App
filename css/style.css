@@ -1,0 +1,425 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+    nav
+    {
+        
+        background-color:white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 30px;
+        
+        color: #8e7754;
+    }
+      
+    nav ul 
+    {
+        display: flex;
+        list-style-type: none;
+    }
+    nav ul li
+    {
+        
+        display: flex;
+    
+       
+      
+    
+    }
+    nav ul li a 
+    {
+        text-decoration: none;
+        color: rgb(70, 66, 56);
+        margin-left: 40px;
+        font-size: 18px;
+    
+    }
+    nav ul li a:hover
+    {
+        color: black;
+        font-weight: 600;
+    }
+    nav ul li .icon 
+    {
+        display: none;
+    }
+    nav ul hr 
+    {
+        display: none;
+    }
+    .Home
+    {
+        background-image: url(../images/drew-coffman-1872.jpg);
+        background-position: center center;
+        background-size: cover;
+        height: 100vh;
+    }
+    .layer
+    {
+        background-color: rgba(0, 0, 0, 0.6);
+        
+        height: 100vh;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .intro span
+{
+    font-size: 20px;
+    color: rgb(171, 164, 164);
+}
+.intro h1  
+{
+    margin-top: 0px;
+    font-size: 80px;
+}
+.intro p 
+{
+    margin-top: 15px;
+    color: rgb(171, 164, 164);
+    font-size: 30px;
+   
+}
+
+    .intro button
+    {
+        padding: 15px ;
+        border: 1px solid white;
+       
+        color: white;
+      font-size: 18px;
+        margin-top: 30px;
+        font-weight: 600;
+    }
+    .intro .btn1
+    {
+        background-color: #8e7754;
+        margin-right: 5px;
+    }
+    .intro .btn1:hover
+    {
+        background-color: aliceblue;
+        color: #8e7754;
+    }
+    .intro .btn2
+    {
+        background-color: transparent;
+    }
+    .intro .btn2:hover
+    {
+        background-color: white;
+        color: #8e7754;
+    }
+    
+  .About 
+  {
+   
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 40px 0px ;
+
+   
+  }
+  
+    .About-img
+    {
+        width: 40%;
+        
+    }
+    .About-img img 
+    {
+        width: 100%;
+    }
+
+
+.Who-Are
+{
+    width: 60%;
+    padding: 5px 30px;
+   
+}
+.About-caption
+{
+    text-align: center;
+}
+.About-caption span
+{
+    font-weight: 900;
+    font-size: 25px;
+   
+    font-family: 'Roboto', sans-serif;
+  
+   
+    
+}
+.About-caption p
+{
+  
+   
+   color:  rgb(143, 143, 139) ;
+    margin: 30px 0px;
+    line-height: 1.6;
+   
+}
+.Who-Are ul 
+{
+    list-style: none;
+}
+.Who-Are ul li 
+{
+    display: flex;
+    padding: 10px;
+    color:  rgb(143, 143, 139) ;
+ 
+    
+   
+}
+.icon2 
+{
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(201, 195, 195);
+    border-radius: 50%;
+    color: #8e7754;
+    margin-right: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon2:hover
+{
+    background-color: #8e7754;
+    color: white;
+}
+.Who-Are ul li span 
+{
+    display: flex;
+    align-items: center;
+}
+.Our-Location
+{
+    width: 95%;
+    margin: auto;
+   padding: 30px 0px;
+    display: flex;
+    background-color: whitesmoke;
+}
+.Location-caption
+{
+    width: 50%;
+    text-align: center;
+    padding: 0px 30px;
+}
+.Location-caption span
+{
+    font-weight: 900;
+    font-size: 25px;
+
+   
+   
+    font-family: 'Roboto', sans-serif;
+}
+.Location-caption p
+{
+    color:  rgb(143, 143, 139) ;
+    margin: 40px 0px ;
+    line-height: 1.6;
+}
+.Location-img
+{
+    width: 50%;
+    text-align: center;
+}
+.Location-img img
+{
+    width: 80%;
+    
+}
+.Our_Baking
+{
+   
+   text-align: center;
+   padding:  20px;
+   margin-bottom: 50px;
+   width: 95%;
+   margin: auto;
+  
+}
+
+
+.Our_Baking h2 
+{
+    font-family: 'Roboto', sans-seri ;
+    padding-top: 20px;
+}
+.Our_Baking p
+{
+  
+    color:  rgb(143, 143, 139) ;
+    padding: 20px;
+    font-size: 20px;
+}
+.parent
+{
+    width: 100%;
+    display: flex;
+}
+.child
+{
+    width: 33%;
+    padding: 10px 5px;
+}
+.child img 
+{
+    width: 90%;
+    transition: transform 1s ;
+   
+}
+.child img:hover
+{
+    transform: scale(1.1);
+}
+.child h3 
+{
+    margin-top: 40px;
+    font-style: italic;
+}
+.child p
+{
+    font-size: 20px;
+
+}
+.Contact
+{
+    padding: 30px;
+}
+
+.container
+{
+    padding: 30px 50px;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+.contact_information
+{
+    width: 50%;
+   
+}
+.contact_information h2
+{
+    font-family: 'Roboto', sans-seri ;
+    padding-top: 20px;
+    text-align: center;
+}
+.contact_information p
+{
+    color:  rgb(143, 143, 139) ;
+    padding: 20px;
+    text-align: center;
+    line-height:  1.5;
+}
+.contact_information .p-ul
+{
+    text-align: start;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+}
+.contact_information ul 
+{
+    list-style-type: none;
+}
+
+.contact_information ul li 
+{
+    display: flex;
+    padding: 10px;
+    color:  rgb(143, 143, 139) ;
+ 
+    
+   
+}
+
+.contact_information ul li span 
+{
+    display: flex;
+    align-items: center;
+}
+.map
+{
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+}
+.map iframe 
+{
+    width: 100%;
+}
+footer
+{
+  
+    background-color: #313131;
+}
+.fotter_information
+{
+   
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    color: white;
+
+}
+.about_us 
+{
+    width: 25%;
+    padding: 10px;
+    
+}
+.about_us h4 
+{
+    font-size: 20px;
+    padding: 10px;
+}
+.about_us p 
+{
+    
+    padding: 10px;
+    margin: 10px 0px;
+}
+.info
+{
+    width: 25%;
+    padding: 10px;
+}
+.info ul 
+{
+    list-style-type: none;
+}
+.info ul li 
+{
+    padding: 10px;
+}
+.fotter-img
+{
+    text-align: center;
+    background-color: rgba(31, 31, 31, 0.8);
+    padding: 50px;
+}
+    
+
+
+
+    
